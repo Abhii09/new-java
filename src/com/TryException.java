@@ -9,9 +9,11 @@ public class TryException {
 			System.out.println("try--start");
 			int x=10/0;
 			System.out.println("try--end"+x);
-		}catch (Exception e) {
+		}
+		catch (Exception e) {
 			System.out.println(e);//exception will be show.
 		}
 		System.out.println("main end");
+		
 }
 }
