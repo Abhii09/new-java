@@ -35,7 +35,8 @@ public class Throwsdemo {
 		Throwsdemo t=new Throwsdemo();
 		try
 		{
-			t.m1();
+			t.m1();//call m1 method.
+			
 			int[] x=new int[5];
 			x[5]=10;
 			System.out.println("value"+x[5]);

@@ -12,7 +12,7 @@ public class ThrowOverriding {
 			System.out.println("exception is:"+e);
 		}
 		finally {
-			System.out.println("finally");
+			System.out.println("finally main");
 		}
 		
 		//checked exception call
