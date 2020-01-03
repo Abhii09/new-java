@@ -2,9 +2,7 @@ package com;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.InputStream;
-import java.nio.file.FileAlreadyExistsException;
 
 //handling exception using try and catch.
 public class TryException {
