@@ -7,6 +7,7 @@ public class Mythreadclass1 extends Thread {
 		for(int i=0;i<10;i++) {
 			try
 			{
+				System.out.println(Thread.currentThread().getId());
 				Thread.sleep(500);
 			}
 			catch(Exception e) {
