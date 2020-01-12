@@ -4,9 +4,9 @@ import java.util.*;
 
 public class VectorDemoclass {
 	public static void main(String[] args) {
-		Vector v=new Vector();
-		v.add("abhi");
-	for(int i=0;i<10;i++) {
+		Vector<Integer> v=new Vector<Integer>();
+		v.add(100);
+	for(int i=0;i>10;i++) {
 		v.addElement(i);
 	}
 	System.out.println(v);

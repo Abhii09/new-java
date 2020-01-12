@@ -14,7 +14,9 @@ public class LinkedListdemo1 {
 		l1.add(0,"hii");
 		l1.removeLast();
 		l1.add("Null");
-		
+		System.out.println(l1.getFirst());//first element display
+		System.out.println(l1.getLast());//last element display
+		System.out.println(l1.get(2));//fourth no index value print in list
 		System.out.println(l1);
 		
 		
