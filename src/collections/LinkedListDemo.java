@@ -14,9 +14,9 @@ public class LinkedListDemo {
 	
 		System.out.println(l1);
 		
-		Iterator<String> it=l1.iterator();
+		Iterator it= l1.iterator();
 
-		System.out.println(it.hasNext());
+		System.out.println(it.next());
 		while (it.hasNext()) {
 			String i=(String)it.next();
 			System.out.println(i);

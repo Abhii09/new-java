@@ -1,6 +1,7 @@
 package collections;
 
 import java.util.*;
+import java.util.Iterator;
 
 public class ListAdd {
 	public static void main(String[] args){

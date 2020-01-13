@@ -5,9 +5,11 @@ import java.util.*;
 public class VectorDemoclass {
 	public static void main(String[] args) {
 		Vector<Integer> v=new Vector<Integer>();
+		
 		v.add(100);
-	for(int i=0;i>10;i++) {
+	for(int i=0;i<10;i++) {
 		v.addElement(i);
+	
 	}
 	System.out.println(v);
 	System.out.println(v.capacity());
